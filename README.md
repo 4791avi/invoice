@@ -1,26 +1,23 @@
 # README
 
+* First marcopolo_assignment
+ # It a simple ruby code I have made two function.
+ # You can call the marcopolo function by passing the number as its argument
+
+
+* Second Parse Invoice Number assignment
+ # It is Ruby On Rails application containing a single page.
+ # You can upload the 7 segment number text file to convert it into decmial form.
+ # I have user ruby and rails version mention below.
+
 * Ruby Version - 2.5.1
 * Rails Version - 5.2.2
 
-Input:
+Note: You can find the Invoice Number assignment in the below given url 
+and its also running on heroku you can see in the given below url.
 
-A text file containing several hundreds of invoice numbers in the following form:
+Git url = https://github.com/4791avi/invoice.git
+Heroku url = https://parsenumber.herokuapp.com/
 
-      _  _     _  _  _  _  _  (line 1)
-    | _| _||_||_ |_   ||_||_| (line 2)
-    ||_  _|  | _||_|  ||_| _| (line 3)
-                              (line 4)
-      _  _  _  _  _  _     _  (line 5)
-  |_||_|| ||_||_   |  |  ||_  (line 6)
-    | _||_||_||_|  |  |  | _| (line 7)
-                              (line 8)
-Invoice number format:
-
-Each invoice number is constructed of 9 digits [0..9]
-Invoice number is written using _ and | characters.
-Invoice number input takes 4 lines.
-The first 3 lines contain 27 characters.
-The fourth line is blank.
 
 
