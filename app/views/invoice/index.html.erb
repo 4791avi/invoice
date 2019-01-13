@@ -1,2 +1,24 @@
-<h1>Invoice#index</h1>
-<p>Find me in app/views/invoice/index.html.erb</p>
+<div class="invoice-form">
+	<div class="top-invoice">
+		<span><img src="/assets/invoice.png" alt=""/></span>
+	</div>
+	<h1>Parse Invoice Number</h1>
+	<%#= form_tag({:action => :upload}, id: "my_form", multipart: true) do %>	
+		<div class="invoice-top">
+			<form>
+				<div class="invoice-ic">
+					<i ></i>	
+					<div class="upload-btn-wrapper">
+						<button class="btn">Upload a Text File</button>
+						<input type="file" name="file" value="Upload file txt" accept=".txt" runat="server"/>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<div class="log-bwn">
+					<input type="submit"  value="upload" >
+				</div>
+			</form>
+		</div>
+	<%# end %>
+	<p class="copy">© 2019 AviGroup | Design by  <a href="http://avinashmehta.herokuapp.com/" target="_blank">Avinash Kumar</a></p>
+</div>	
