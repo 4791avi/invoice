@@ -8,6 +8,7 @@ class InvoiceController < ApplicationController
   		puts "blank"
   		flash[:alert] = "Please Upload a file for conversion."
   		redirect_to root_path
+  		return
   	end
   	@segment_number = [[" _ ", "| |", "|_|"],["   ","  |","  |"],[" _ ", " _|", "|_ "],[" _ ", " _|", " _|"],["   ","|_|", "  |"],[" _ ", "|_ ", " _|"],[" _ ", "|_ ", "|_|"],[" _ ", "  |", "  |"],[" _ ", "|_|", "|_|"],[" _ ", "|_|", " _|"]]
   	@decimal_number_list =[]
