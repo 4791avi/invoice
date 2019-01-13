@@ -3,7 +3,7 @@
 		<span><img src="/assets/invoice.png" alt=""/></span>
 	</div>
 	<h1>Parse Invoice Number</h1>
-	<%#= form_tag({:action => :upload}, id: "my_form", multipart: true) do %>	
+	<%= form_tag({:action => :parse_invoice}, id: "my_form", multipart: true) do %>	
 		<div class="invoice-top">
 			<form>
 				<div class="invoice-ic">
@@ -15,10 +15,10 @@
 					</div>
 				</div>
 				<div class="log-bwn">
-					<input type="submit"  value="upload" >
+					<input type="submit"  value="Convert And Download" >
 				</div>
 			</form>
 		</div>
-	<%# end %>
+	<% end %>
 	<p class="copy">© 2019 AviGroup | Design by  <a href="http://avinashmehta.herokuapp.com/" target="_blank">Avinash Kumar</a></p>
 </div>	
